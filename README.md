@@ -12,6 +12,6 @@ Code a static React-Frontend to display and create diary entries.
 
 [Projectboard](https://github.com/users/GittyX3b/projects/4/views/1)
 
-[Design MockUp](https://docs.google.com/drawings/d/1R8vTqvZz6REUoeDangL4txddVphvEBoYuYUJ6PN0hfQ/edit?usp=sharing)
+[Design MockUp](https://www.figma.com/design/xEBtsdKNT7hJbHM1Zmfbxq/wbs-project-5_personal-diary?node-id=0-1&t=0Par8eUtmpRfYhbG-1)
 
 [Live-Page]()
