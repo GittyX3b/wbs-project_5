@@ -1,8 +1,7 @@
 const Contact = () => {
     return (
         <div id='Contact'>
-            Contact.jsx
-            <title>contact.jsx</title>
+            <title>Contact</title>
             <div>...</div>
         </div>
     );
