@@ -1,14 +1,18 @@
-import App from '@/App.jsx';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router';
 
-import './main.css';
+import App from '@/App.jsx';
+import { ExampleLocalProvider } from '@provider';
+
+import '@/main.css';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </StrictMode>,
+    <StrictMode>
+        <ExampleLocalProvider>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </ExampleLocalProvider>
+    </StrictMode>,
 );

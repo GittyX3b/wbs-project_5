@@ -1,12 +1,17 @@
 import { Outlet } from 'react-router';
 
-const MainLayout = () => {
-  return (
-    <div id='MainLayout' className='min-h-screen w-full bg-red-200'>
-      MainLayout.jsx
-      <Outlet />
-    </div>
-  );
-};
+import { Footer, Header } from '@components';
 
-export default MainLayout;
+export const MainLayout = () => {
+    return (
+        <>
+            <div id='wrapper' className='grid min-h-screen grid-rows-[auto_1fr_auto] bg-red-200'>
+                <Header></Header>
+                <main className='bg-yellow-200'>
+                    <Outlet />
+                </main>
+                <Footer></Footer>
+            </div>
+        </>
+    );
+};
