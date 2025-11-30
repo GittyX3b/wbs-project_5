@@ -1,9 +1,8 @@
 const Blog = () => {
     return (
         <div id='Blog'>
-            Blog.jsx
-            <title>Blog.jsx</title>
-            <div>...</div>
+            <title>Blog</title>
+            <div>...contents here in green container...</div>
         </div>
     );
 };

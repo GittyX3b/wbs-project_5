@@ -1,2 +1,6 @@
-@import "tailwindcss";
-@plugin "daisyui";
+@import 'tailwindcss';
+@plugin 'daisyui';
+
+.maxwidth-1200 {
+    max-width: 1200px;
+}
