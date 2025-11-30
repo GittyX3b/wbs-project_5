@@ -8,21 +8,31 @@ const __filename = fileURLToPath(import.meta.url); // get the resolved path to t
 const __dirname = path.dirname(__filename); // get the name of the directory
 
 export default defineConfig({
+  //base: "/", // set github reponame for deploy
   build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "index.html"),
+      },
+    },
     outDir: 'dist',
-    emptyOutDir: false,
+    emptyOutDir: true,
     cssCodeSplit: false,
     cssMinify: true,
-    minify: false,
+    minify: true,
   },
-  plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
       '@assets': path.resolve(__dirname, './src/assets'),
-      '@components': path.resolve(__dirname, './src/components'),
+      "@data": path.resolve(__dirname, "./src/data"),
+      "@provider": path.resolve(__dirname, "./src/data/provider"),
       '@layouts': path.resolve(__dirname, './src/layouts'),
       '@pages': path.resolve(__dirname, './src/pages'),
-    },
-  },
+      '@components': path.resolve(__dirname, './src/components'),
+      '@elements': path.resolve(__dirname, './src/components/elements'),
+      '@public': path.resolve(__dirname, './public'),
+    },   
+  }, 
+  plugins: [react(), tailwindcss()]
 });
