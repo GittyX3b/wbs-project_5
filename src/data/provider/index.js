@@ -1,8 +1,4 @@
-import { ExampleLocalCtx, ExampleLocalProvider } from "@provider/ExampleLocalProvider";
-import { useExampleLocal } from "@provider/useExampleLocal";
+import { DataCtx, DataProvider } from '@provider/DataProvider';
+import { useData } from '@provider/useData';
 
-export {
-  ExampleLocalCtx,
-  ExampleLocalProvider,
-  useExampleLocal,
-};
+export { DataCtx, DataProvider, useData };

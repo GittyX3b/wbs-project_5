@@ -1,5 +1,3 @@
-import exampleJson from "@data/example";
+import initialData from '@data/initialData';
 
-export { exampleJson };
-    
-// import anywhere from "@data"
+export { initialData };

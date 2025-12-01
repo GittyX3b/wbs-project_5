@@ -3,16 +3,16 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router';
 
 import App from '@/App.jsx';
-import { ExampleLocalProvider } from '@provider';
+import { DataProvider } from '@provider';
 
 import '@/main.css';
 
 createRoot(document.getElementById('root')).render(
-    <StrictMode>
-        <ExampleLocalProvider>
-            <BrowserRouter>
-                <App />
-            </BrowserRouter>
-        </ExampleLocalProvider>
-    </StrictMode>,
+  <StrictMode>
+    <DataProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </DataProvider>
+  </StrictMode>,
 );
