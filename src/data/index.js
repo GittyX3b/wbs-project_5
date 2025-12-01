@@ -1,5 +1,4 @@
-import exampleJson from "@data/example";
+import initialAppConfig from '@data/initialAppConfig';
+import initialDiaryData from '@data/initialDiaryData';
 
-export { exampleJson };
-    
-// import anywhere from "@data"
+export { initialAppConfig, initialDiaryData };
