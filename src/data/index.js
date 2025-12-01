@@ -1,3 +1,4 @@
-import initialData from '@data/initialData';
+import initialAppConfig from '@data/initialAppConfig';
+import initialDiaryData from '@data/initialDiaryData';
 
-export { initialData };
+export { initialAppConfig, initialDiaryData };

@@ -1,14 +1,14 @@
+import { useDiary } from '@context';
 import { Card } from '@elements';
-import { useData } from '@provider';
 
 const Blog = () => {
-  const { localData } = useData();
+  const { diaryArr } = useDiary();
 
   return (
     <div id='Blog'>
       <title>Blog</title>
-      <div className='wrap grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
-        {localData.diary.map((item) => {
+      <div className='wrap grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3'>
+        {diaryArr.map((item) => {
           return (
             <Card
               key={item.uid}

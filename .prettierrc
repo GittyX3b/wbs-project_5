@@ -10,7 +10,7 @@
     "^[a-zA-Z]",
 
     "^@data/(?!.*\\.(css|json|png|jpg|jpeg|gif|webp|mp3|webm)$)(.*)$",
-    "^@provider/(?!.*\\.(css|json|png|jpg|jpeg|gif|webp|mp3|webm)$)(.*)$",
+    "^@context/(?!.*\\.(css|json|png|jpg|jpeg|gif|webp|mp3|webm)$)(.*)$",
     "^@layouts/(?!.*\\.(css|json|png|jpg|jpeg|gif|webp|mp3|webm)$)(.*)$",
     "^@pages/(?!.*\\.(css|json|png|jpg|jpeg|gif|webp|mp3|webm)$)(.*)$",
     "^@components/(?!.*\\.(css|json|png|jpg|jpeg|gif|webp|mp3|webm)$)(.*)$",

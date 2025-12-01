@@ -1,14 +1,24 @@
 import { Trash } from 'lucide-react';
 
-import { useData } from '@provider';
+import { useAppControl, useDiary } from '@context';
 
-const BtnDelete = () => {
-  const { localData } = useData();
+const BtnDelete = ({ articleId }) => {
+  const { config } = useAppControl();
+  const { removeArticle } = useDiary();
 
-  if (!localData.editMode) return null;
+  if (!config.editMode) return null;
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    removeArticle(e.currentTarget.dataset.article);
+  };
 
   return (
-    <button className='btn btn-ghost absolute top-4 left-4 bg-red-500 p-2 text-white'>
+    <button
+      data-article={articleId}
+      className='btn btn-ghost btn-circle absolute top-4 right-4 z-5 bg-white p-2 text-neutral-400 hover:bg-zinc-600 hover:text-white active:bg-zinc-800'
+      onClick={handleClick}
+    >
       <Trash />
     </button>
   );
