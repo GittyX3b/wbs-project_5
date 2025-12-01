@@ -7,9 +7,14 @@ const DataCtx = createContext(null);
 const DataProvider = ({ children }) => {
   const [localData, setLocalData] = useState(initialData);
 
-  // #TODO:
+  const toggleEditMode = () => {
+    setLocalData((prev) => ({
+      ...prev,
+      editMode: !prev.editMode,
+    }));
+  };
 
-  return <DataCtx value={{ localData, setLocalData }}>{children}</DataCtx>;
+  return <DataCtx value={{ localData, toggleEditMode }}>{children}</DataCtx>;
 };
 
 export { DataCtx, DataProvider };

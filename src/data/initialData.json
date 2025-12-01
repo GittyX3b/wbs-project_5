@@ -1,40 +1,43 @@
-[
+{
+  "editMode": false,
+  "diary": [
     {
-        "uid": "4324",
-        "date_published": "2025-11-28",
-        "slug": "quiet-morning-reflections",
-        "title": "Quiet Morning Reflections",
-        "images": [
-            "https://unsplash.com/photos/woman-walking-on-pathway-during-daytime-mNGaaLeWEp0",
-            "https://unsplash.com/photos/green-ceramic-mug-on-wooden-desk-m0l5J8Lqnzo",
-            "https://unsplash.com/photos/a-hammock-hanging-between-two-trees-with-the-sun-setting-in-the-background-k5ji1PTIEfY"
-        ],
-        "Text": "I woke up earlier than usual today and enjoyed the silence before the city came alive. A cup of coffee, soft light through the window, and a few calm moments were enough to set a peaceful tone for the rest of the day."
+      "uid": "4324",
+      "date_published": "2025-11-28",
+      "slug": "quiet-morning-reflections",
+      "title": "Quiet Morning Reflections",
+      "images": [
+        "https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c",
+        "https://images.unsplash.com/photo-1422433555807-2559a27433bd",
+        "https://plus.unsplash.com/premium_photo-1663946191856-551398b68588"
+      ],
+      "text": "I woke up earlier than usual today and enjoyed the silence before the city came alive. A cup of coffee, soft light through the window, and a few calm moments were enough to set a peaceful tone for the rest of the day."
     },
     {
-        "uid": "645647",
-        "date_published": "2025-11-29",
-        "slug": "long-walk-in-the-park",
-        "title": "A Long Walk in the Park",
-        "images": [
-            "https://unsplash.com/photos/a-woman-walking-across-a-wooden-bridge-over-a-river-rG0ffdofZN8",
-            "https://unsplash.com/photos/sun-shining-on-tree-P9gkfbaxMTU",
-            "https://unsplash.com/photos/brown-wooden-bench-HlhgXw-1r8A",
-            "https://unsplash.com/photos/people-walking-on-green-grass-field-near-green-trees-under-blue-sky-during-daytime-NsxzcbdF8fU"
-        ],
-        "Text": "After work, I went for a long walk through the park. The air was cold, but refreshing. Watching people pass by reminded me how everyone carries their own stories, worries, and hopes."
+      "uid": "645647",
+      "date_published": "2025-11-29",
+      "slug": "long-walk-in-the-park",
+      "title": "A Long Walk in the Park",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1690574169354-d6cc4299cf84",
+        "https://images.unsplash.com/photo-1568480289356-5a75d0fd47fc",
+        "https://images.unsplash.com/photo-1573493334464-21388936965a",
+        "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7"
+      ],
+      "text": "After work, I went for a long walk through the park. The air was cold, but refreshing. Watching people pass by reminded me how everyone carries their own stories, worries, and hopes."
     },
     {
-        "uid": "87567",
-        "date_published": "2025-11-30",
-        "slug": "small-wins",
-        "title": "Celebrating Small Wins",
-        "images": [
-            "https://unsplash.com/photos/woman-facing-body-of-water-cFdH_t5xBxk",
-            "https://unsplash.com/photos/green-white-and-black-round-with-red-line-HD2MMUEQ5MM",
-            "https://unsplash.com/photos/woman-wears-black-tank-top-WNVGLwGMCAg",
-            "https://unsplash.com/photos/person-in-red-sweater-holding-babys-hand-Zyx1bK9mqmA"
-        ],
-        "Text": "Today wasn’t extraordinary, but I managed to finish tasks I had been postponing for weeks. It felt good to make progress, even if it was just a little. Small wins still count."
+      "uid": "87567",
+      "date_published": "2025-11-30",
+      "slug": "small-wins",
+      "title": "Celebrating Small Wins",
+      "images": [
+        "https://images.unsplash.com/photo-1503944168849-8bf86875bbd8",
+        "https://images.unsplash.com/photo-1583782385538-c55baa9420ff",
+        "https://images.unsplash.com/photo-1569705460033-cfaa4bf9f822",
+        ""
+      ],
+      "text": "Today wasn’t extraordinary, but I managed to finish tasks I had been postponing for weeks. It felt good to make progress, even if it was just a little. Small wins still count."
     }
-]
+  ]
+}
